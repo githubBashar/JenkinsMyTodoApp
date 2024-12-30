@@ -9,6 +9,7 @@ public class Todo {
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Integer id;
 
+    
     private String description;
     private boolean isDone;
 
